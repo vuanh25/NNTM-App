@@ -1,0 +1,88 @@
+name: application_flutter
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Utility Packages
+  http: ^1.2.0
+  intl: ^0.19.0
+  logger: ^2.0.2+1
+  url_launcher: ^6.2.5
+  flutter_native_splash: ^2.3.10
+  smooth_page_indicator: ^1.1.0
+  #Icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.2
+  #State Management
+  flutter_bloc: ^8.1.4
+  get: ^4.6.6
+  freezed: ^2.4.7
+  freezed_annotation: ^2.4.1
+  #DI
+  get_it: ^7.6.7
+  injectable: ^2.3.0
+  #storage
+  shared_preferences: ^2.2.2
+  image_picker: ^1.0.7
+  jwt_decoder: ^2.0.1
+  firebase_crashlytics: ^3.4.19
+  #Web
+  url_strategy: ^0.2.0
+  #Networks
+  internet_connection_checker: ^0.0.1+4
+  connectivity_plus: ^2.3.5
+  retrofit: ^4.0.1
+  dio: ^5.3.3
+  flutter_html: 3.0.0-beta.2
+  bloc_test: ^9.1.5
+  #UI
+  bmprogresshud: ^1.0.1
+  carousel_slider: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  retrofit_generator: ^7.0.8
+  build_runner: ^2.4.7
+  injectable_generator: ^2.4.0
+  mockito: ^5.4.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    # LOCAL ASSETS
+    - assets/logos/
+    - assets/images/
+    - assets/images/on_boarding_images/
+    - assets/icons/categories/
+    - assets/images/products/
+
+  # LOCAL FONTS
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 800
