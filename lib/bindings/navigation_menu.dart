@@ -1,4 +1,5 @@
 import 'package:application_flutter/screens/home/home_screen.dart';
+import 'package:application_flutter/screens/post/post.dart';
 import 'package:application_flutter/utils/constants/colors.dart';
 import 'package:application_flutter/utils/helpers/helpers_functions.dart';
 import 'package:flutter/material.dart';
@@ -44,9 +45,7 @@ class NavigationController extends GetxController {
 
   final screens = [
     const HomeScreen(),
-    Container(
-      color: Colors.purple,
-    ),
+    const PostScreen(),
     Container(
       color: Colors.orange,
     ),

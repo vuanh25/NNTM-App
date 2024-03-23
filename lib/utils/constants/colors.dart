@@ -4,6 +4,7 @@ class TColors {
   TColors._();
   // AppBar colors
   static const Color primary = Color(0xF00a6130);
+  static const Color primary1 = Color(0xF08BC83F);
   static const Color secondary = Color(0xFFFFE24B);
   static const Color accent = Color(0xFFb0c7ff);
 
